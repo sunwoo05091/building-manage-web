@@ -168,10 +168,10 @@ export default function Home() {
 
           <div className="flex gap-6 overflow-x-auto pb-8 snap-x snap-mandatory">
             {[
-              "iMockup - iPhone 14-5.png",
-              "iMockup - iPhone 14-6.png",
-              "iMockup - iPhone 14-7.png",
+              "iMockup - iPhone 14.png",
               "iMockup - iPhone 14-8.png",
+              "iMockup - iPhone 14-2.png",
+              "iMockup - iPhone 14-7.png",
             ].map((img, index) => (
               <div key={index} className="flex-shrink-0 snap-center">
                 <Image
