@@ -79,14 +79,18 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="#download"
+                href="https://apps.apple.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-full transition-colors"
               >
                 <Image src="/images/appleSplash.png" alt="App Store" width={24} height={24} />
                 App Store
               </a>
               <a
-                href="#download"
+                href="https://play.google.com/store"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-white hover:bg-gray-100 text-gray-900 font-semibold px-8 py-4 rounded-full transition-colors"
               >
                 <Image src="/images/googleSplash.png" alt="Google Play" width={24} height={24} />
@@ -198,7 +202,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="#"
+              href="https://apps.apple.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-black hover:bg-gray-900 text-white font-semibold px-8 py-4 rounded-xl transition-colors"
             >
               <Image src="/images/appleSplash.png" alt="App Store" width={28} height={28} />
@@ -208,7 +214,9 @@ export default function Home() {
               </div>
             </a>
             <a
-              href="#"
+              href="https://play.google.com/store"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 bg-black hover:bg-gray-900 text-white font-semibold px-8 py-4 rounded-xl transition-colors"
             >
               <Image src="/images/googleSplash.png" alt="Google Play" width={28} height={28} />
