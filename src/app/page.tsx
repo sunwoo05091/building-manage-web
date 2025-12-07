@@ -253,8 +253,18 @@ export default function Home() {
             </nav>
           </div>
 
-          <div className="mt-8 pt-8 border-t border-gray-800 text-center text-sm">
-            <p>&copy; 2025 엄지. All rights reserved.</p>
+          {/* 사업자 정보 */}
+          <div className="mt-8 pt-8 border-t border-gray-800 text-sm">
+            <div className="flex flex-col md:flex-row justify-between items-center md:items-start gap-4">
+              <div className="text-center md:text-left space-y-1">
+                <p>(주)제이투파트너스 | 대표: 김성숙</p>
+                <p>사업자등록번호: 576-87-02544</p>
+                <p>경기도 시흥시 은계호수로 49, 2층 2099호(은행동, 시흥 센트럴돔 그랑트리 캐슬)</p>
+              </div>
+            </div>
+            <div className="mt-6 text-center">
+              <p>© 2025 J2Partners. All rights reserved.</p>
+            </div>
           </div>
         </div>
       </footer>
