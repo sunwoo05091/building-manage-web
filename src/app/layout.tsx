@@ -12,6 +12,10 @@ export const metadata: Metadata = {
   title: "엄지 - 내 손안의 건물 파트너",
   description: "건물 관리의 새로운 기준, 엄지와 함께하세요. 민원 접수, 공지사항, 출퇴근 관리까지 한 번에.",
   keywords: ["건물관리", "아파트관리", "민원접수", "시설관리", "엄지"],
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
   openGraph: {
     title: "엄지 - 내 손안의 건물 파트너",
     description: "건물 관리의 새로운 기준, 엄지와 함께하세요.",
